@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="index.css">
+   <input type="search" id="myinput" class="srch" placeholder="search here" onkeyup="searchfun();"><br>
+   <h4 class="heading">TodoInput</h4>
+ </head>
+ <body class="table" onload="showData()">
+   <div class="innerhtml">
+    
+     <input id="input" placeholder="New Todo">
+     <input type="button" class="btn" id="myButton" value="Add New Task"onclick="add();">
+    
+ </div>
+ <table class="htmltable">
+   <div class="shw" id="show"></div>
+ </table>
+ <button class="clearall" onclick="clearall()">Clear All Task</button>
+ <button class="cleardone" onclick="cleardone()">Clear Done Task</button>
+ <script src="index.js"></script> 
+ </body>
+ </html>
+ 
